@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://wallpapers.com/images/featured/business-jzw8ax93flqonkce.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.form{
+    width: 30%;
+    height: 60%;
+    background-color: rgba(0,0,0,0.6);
+    margin: auto;
+    position: relative;
+    top: 30%;
+    border-radius: 6px;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 15%;
+    font-style: inherit;
+    height: 35px;
+    font-family: sans-serif;
+    top: -16%;
+    background-size: cover;
+    cursor: pointer;
+
+}
+h1 span:hover{
+    color: rgba(0,0,0,0.8);
+
+}
+.input{
+    position: relative;
+    left: 30%;
+    margin: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#myButton{
+    position: relative;
+    left: 40%;
+    padding: 6px 25px;
+    margin-top: 4%;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+#myButton:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    color: white;
+
+    
+}
+input:hover{
+    border-bottom: 2px solid white;
+    color: white;
+    transition-duration: 1s;
+}
+::placeholder{
+    color: azure;
+    font-size: 12px;
+
+    
+}
+button:hover{
+    color: white;
+    
+
+}
+span{
+ font-weight: bold;   
+}
+i{
+    position: relative;
+    right: 3%;
+    color: white;
+}
